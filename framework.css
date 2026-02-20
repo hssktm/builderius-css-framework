@@ -224,7 +224,7 @@
     --accordion--spacing-block: var(--spacing--block);
     --card--background-color: var(--color--base--0);
     --card--border-color: var(--color--base--50);
-    --card--padding: var(--spacing--lg); 
+    --card--padding: var(--spacing--3xl); 
     --card--box-shadow: var(--box--shadow);
     --card--border-radius: var(--border--radius);
     --pagination--item-radius: calc(var(--border--radius) / 2);
@@ -1407,7 +1407,7 @@ builderius-smart-form button.processing {
 }
 
 .card {
-    padding: var(--spacing--3xl);
+    padding: var(--card--padding);
     border-radius: var(--card--border-radius);
     background-color: var(--card--background-color);
     border: solid var(--border--width) var(--card--border-color);
